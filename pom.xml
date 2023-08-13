@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amazon</groupId>
+  <artifactId>com.amazon</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Amazon Framework</name>
+  <description>Amazon.com: SPend Less Smile More</description>
+  
+   <dependencies>
+			  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+			   <!-- Selenium-Java dependency is used to get access of Java based Selenium-->
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-java</artifactId>
+		    <version>4.11.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<!-- TestNG is used to test the functionality-->
+		<dependency>
+		    <groupId>org.testng</groupId>
+		    <artifactId>testng</artifactId>
+		    <version>7.8.0</version>
+		   <!--  Please comment out below  --> 
+		    <!--scope>test</scope>-->
+		</dependency>
+
+
+	    </dependencies>
+	    
+	    <build>
+			<plugins>
+				<plugin>
+					<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+					<!-- maven-compiler-plugin is used to compile the maven build-->
+
+		    <groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-compiler-plugin</artifactId>
+		    <version>3.11.0</version>
+		    <configuration>
+				<!-- Here 1.11 is actually your Java Version-->
+				<source>1.11</source>
+				<target>1.11</target>
+			</configuration>
+				</plugin>
+				
+				<plugin>
+					<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+					<!-- maven-surefire-plugin is used to start the building-->
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-surefire-plugin</artifactId>
+			    <version>3.1.2</version>
+				</plugin>
+				
+				
+			</plugins>			
+			
+		</build>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</project>
+
+
